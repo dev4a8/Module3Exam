@@ -7,11 +7,66 @@ body   {
   padding: 0;
 }
 
+.main-heading {
+	text-align: center;
+	color: red;
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+.sub-heading {
+  /*border: 1px solid black;*/
+
+  /*float: top;*/
+  /*padding: 10px;*/
+  /*margin: 0 0 10px 10px;*/
+  /*font-size: 2em;*/
+  text-align: center;
+  margin: 0;
+  padding: 10;
+  /*font-size: .5em;*/
+  /*background-color: lightgrey;*/
+}
+
+.menu-item-tile p {
+	/*padding: 10px;*/
+	font-style: "italic";
+	padding: 10px;
+	margin: 0;
+	/*color: red;*/
+	font-size: 1.5em;
+	/*color: red;*/
+ /* margin-top: : 20px;
+  margin-bottom: 20px;
+*/	
+/*  width: auto;
+  height: 500px*/
+}
+
+.menu-item-tile .sub-heading{
+	margin-top: 0;
+	margin-bottom: 30px
+	padding: 50px;
+	font-size: 3em;
+ /* margin-top: : 20px;
+  margin-bottom: 20px;
+*/	
+/*  width: auto;
+  height: 500px*/
+}
+
+.jumbotron {
+	background-color: lightgrey;
+	padding: 10px;
+	/*width: 100%;*/
+	height: 700px;
+	/*border: 1px solid black;*/
+}
+
 #header-nav {
   background-color: lightgrey;
   border-radius: 0;
   border: 0;
-  height: 150px;
+  height: static;
   width: 100%;
 
 }
@@ -107,6 +162,9 @@ small devices */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Header */
 
+  .main-heading{
+	color: blue;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -131,7 +189,6 @@ small devices */
 */
   #header-nav {
   	clear: both;
-  	height: 100px;
   }
 
   .navbar-brand {
@@ -140,12 +197,13 @@ small devices */
   }
   .navbar-brand h1 { /* Restaurant name */
     padding: 0;
-    font-size: 8vw; /* 1vw = 1% of viewport width */
+    font-size: 3em; /* 1vw = 1% of viewport width */
   }
 
    #collapsable-nav hr {
 		border: 1px solid black;
 		width: 80%;
+
 	}
 
   .navbar-header button.navbar-toggle {
@@ -154,6 +212,9 @@ small devices */
 	margin-right: 20px;
   }
 
+.main-heading{
+	color: blue;
+  }
 }
 
 
