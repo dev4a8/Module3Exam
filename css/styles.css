@@ -30,13 +30,14 @@ body   {
 
 .menu-item-tile  {
 	background-color: lightgrey;
-	/*font-style: "italic";*/
 	padding: 0;
 	margin: 0;
 	font-size: 1.5em;
 }
 
 .menu-item-details {
+	width: 100%;
+	margin: 0;
 	padding:  0 15px 15px 15px;
 }
 
