@@ -7,6 +7,14 @@ body   {
   padding: 0;
 }
 
+#header-nav {
+  background-color: lightgrey;
+  border-radius: 0;
+  border: 0;
+  height: static;
+  width: 100%;
+}
+
 .main-heading {
   text-align: center;
   color: red;
@@ -30,17 +38,6 @@ body   {
 
 .menu-item-details {
 	padding:  0 15px 15px 15px;
-}
-
-#header-nav {
-  background-color: lightgrey;
-  border-radius: 0;
-  border: 0;
-  height: static;
-  width: 100%;
-}
-
-.container {
 }
 
 .navbar-brand {
